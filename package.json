@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "description": "Integrated lead generation and sales automation platform for trade businesses",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "scripts": {
     "dev": "npm run dev --workspace=apps/web",
     "build": "npm run build --workspaces",
@@ -14,15 +10,49 @@
     "test": "npm run test --workspaces --if-present",
     "lint": "npm run lint --workspaces --if-present",
     "install:all": "npm install",
-    "clean": "rm -rf node_modules apps/*/node_modules packages/*/node_modules"
+    "clean": "rm -rf node_modules apps/*/node_modules packages/*/node_modules",
+
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "install:all": "npm install && cd ai-cold-caller-crm && npm install && cd ../trade-lead-generator && npm install && cd ..",
+    "dev:all": "concurrently \"npm run dev\" \"cd ai-cold-caller-crm && npm run dev\" \"cd trade-lead-generator && npm run dev\"",
+    "build:all": "npm run build && cd ai-cold-caller-crm && npm run build && cd ../trade-lead-generator && npm run build && cd ..",
+    "test:all": "npm test && cd ai-cold-caller-crm && npm test && cd ../trade-lead-generator && npm test && cd .."
+  },
+  "dependencies": {
+    "@auth/supabase-adapter": "^1.4.2",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/supabase-js": "^2.45.8",
+    "next": "14.2.18",
+    "next-auth": "^4.24.10",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "concurrently": "^9.1.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.18",
+    "eslint-config-prettier": "^10.1.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3"
   },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"

@@ -71,6 +71,7 @@ playwright/.cache/
 # TypeScript
 *.tsbuildinfo
 .tsc-cache/
+next-env.d.ts
 
 # Package managers
 .npm/
@@ -266,3 +267,7 @@ ai-cold-caller-crm/node_modules/
 ai-cold-caller-crm/.next/
 ai-cold-caller-crm/dist/
 ai-cold-caller-crm/.env*
+
+# History files
+.history
+*/.history/*

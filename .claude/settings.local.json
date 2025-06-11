@@ -4,7 +4,12 @@
       "Bash(git submodule:*)",
       "Bash(ls:*)",
       "Bash(find:*)",
-      "Bash(mkdir:*)"
+      "Bash(npx create-next-app:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm run lint)",
+      "Bash(npm install:*)"
     ],
     "deny": []
   }
