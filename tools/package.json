@@ -1,0 +1,38 @@
+{
+  "name": "smartweb-linear-claude",
+  "version": "1.0.0",
+  "description": "Linear + Claude integration for SmartWebV3 project management",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/setup-linear.js",
+    "standup": "node scripts/generate-standup.js",
+    "create-stories": "node scripts/create-stories.js",
+    "plan-sprint": "node scripts/plan-sprint.js",
+    "prioritize": "node scripts/prioritize-backlog.js",
+    "test": "echo 'Testing Linear + Claude integration...' && npm run standup",
+    "dev": "nodemon scripts/generate-standup.js"
+  },
+  "dependencies": {
+    "@linear/sdk": "^21.0.0",
+    "@anthropic-ai/sdk": "^0.24.3",
+    "@octokit/rest": "^20.0.2",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.15",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [
+    "linear",
+    "claude",
+    "agile",
+    "project-management",
+    "automation"
+  ],
+  "author": "SmartWebV3 Team",
+  "license": "MIT"
+}
