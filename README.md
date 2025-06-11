@@ -4,6 +4,8 @@
 
 SmartWebV3 is a comprehensive B2B SaaS platform designed specifically for trade businesses (electricians, plumbers, roofers, contractors) to automate lead generation and convert prospects into website/landing page customers. The system combines intelligent lead scraping with AI-powered sales automation to achieve 3-5x ROI within 12 months.
 
+**🎯 Self-Selling Platform**: SmartWebV3 uses its own lead generation and AI sales system internally to acquire customers. We practice what we preach - our platform generates trade business leads and converts them into SmartWebV3 customers using the same technology we offer to clients.
+
 ## 🏗️ System Architecture
 
 ### Core Components
@@ -29,6 +31,12 @@ SmartWebV3 is a comprehensive B2B SaaS platform designed specifically for trade 
 - **Website Services**: $2,000-15,000 per project
 - **Maintenance**: $200-500/month ongoing
 - **Customer LTV**: $4,800-24,000
+
+### Internal Usage Model
+- **Customer Acquisition**: Platform generates its own leads and sales
+- **Proof of Concept**: Every SmartWebV3 sale validates the platform
+- **Cost Efficiency**: Zero customer acquisition cost beyond platform operation
+- **Continuous Improvement**: Real-world usage drives feature development
 
 ## 🎯 Key Features
 

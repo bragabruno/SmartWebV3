@@ -1,7 +1,9 @@
 # Claude AI Development Assistant
 
 ## Project Overview
-SmartWebV3 is an integrated lead generation and sales automation platform specifically designed for trade businesses (electricians, plumbers, roofers, etc.) to generate leads and convert them into website/landing page sales.
+SmartWebV3 is an integrated lead generation and sales automation platform specifically designed for trade businesses (electricians, plumbers, roofers, etc.) to generate leads and convert them into website/landing page sales. 
+
+**Critical Note**: The platform uses its own lead generation and AI sales system internally to acquire customers for SmartWebV3 itself. This "eat your own dog food" approach serves as both a proof of concept and the primary customer acquisition channel.
 
 ## System Architecture
 - **Main Module**: SmartWebV3 - Orchestration and shared infrastructure
@@ -54,10 +56,17 @@ SmartWebV3 is an integrated lead generation and sales automation platform specif
 - Monitoring: Real-time performance and error tracking
 
 ## Key Performance Targets
-- **Lead Generation**: 50-125 daily calls from 1,000-2,500 total leads
-- **Conversion Rates**: 1.5-3% lead-to-sale conversion
+
+### Internal Customer Acquisition (SmartWebV3 Sales)
+- **Lead Generation**: Generate 1,000-2,500 trade business leads daily for our own sales team
+- **Outreach**: 50-125 AI-powered calls daily to sell SmartWebV3 platform
+- **Target**: 10 new SmartWebV3 customers monthly
+- **Conversion**: 1.5-3% lead-to-customer conversion rate
+
+### Platform Performance
 - **Response Times**: Sub-100ms for user interactions
 - **Uptime**: 99.9% availability with failover systems
+- **Scalability**: Support both internal usage and customer deployments
 
 ## Security & Compliance
 - SOC 2 Type II compliance
