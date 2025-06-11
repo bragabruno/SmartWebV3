@@ -1,0 +1,6 @@
+[submodule "trade-lead-generator"]
+	path = trade-lead-generator
+	url = https://github.com/bragabruno/trade-lead-generator.git
+[submodule "ai-cold-caller-crm"]
+	path = ai-cold-caller-crm
+	url = https://github.com/bragabruno/ai-cold-caller-crm.git
