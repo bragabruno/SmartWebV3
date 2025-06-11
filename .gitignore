@@ -71,6 +71,7 @@ playwright/.cache/
 # TypeScript
 *.tsbuildinfo
 .tsc-cache/
+next-env.d.ts
 
 # Package managers
 .npm/
