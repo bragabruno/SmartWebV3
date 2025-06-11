@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Build outputs
+build/
+dist/
+out/
+.next/
+.nuxt/
+.turbo/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment files
+.env*
+
+# Git
+.git/
+
+# Config files that shouldn't be linted
+*.config.js
+*.config.ts
+tailwind.config.js
+postcss.config.js
+next.config.js
+jest.config.js
+vitest.config.js
+
+# Generated files
+generated/
+*.generated.ts
+*.generated.js
+
+# Submodules
+trade-lead-generator/node_modules/
+trade-lead-generator/.next/
+trade-lead-generator/dist/
+ai-cold-caller-crm/node_modules/
+ai-cold-caller-crm/.next/
+ai-cold-caller-crm/dist/
+
+# Storybook
+storybook-static/
+.storybook/
+
+# Playwright
+playwright-report/
+test-results/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+supabase/functions/

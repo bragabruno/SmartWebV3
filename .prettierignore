@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Production
+build/
+dist/
+out/
+.next/
+.nuxt/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Misc
+.DS_Store
+.env*
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+playwright-report/
+test-results/
+
+# Git
+.git/
+.gitignore
+
+# Generated files
+*.min.js
+*.min.css
+generated/
+
+# Submodule specific ignores
+trade-lead-generator/node_modules/
+trade-lead-generator/.next/
+trade-lead-generator/dist/
+ai-cold-caller-crm/node_modules/
+ai-cold-caller-crm/.next/
+ai-cold-caller-crm/dist/
+
+# n8n
+.n8n/
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# Storybook
+storybook-static/
+
+# Turborepo
+.turbo/
+
+# Documentation build outputs
+.docusaurus/
+
+# Temporary files
+tmp/
+temp/
+.tmp/

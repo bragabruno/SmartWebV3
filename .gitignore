@@ -1,0 +1,268 @@
+# Dependencies
+node_modules/
+jspm_packages/
+bower_components/
+
+# Production builds
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.code-workspace
+
+# Testing
+coverage/
+.nyc_output/
+.grunt/
+*.lcov
+.coveralls.yml
+.jest/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# TypeScript
+*.tsbuildinfo
+.tsc-cache/
+
+# Package managers
+.npm/
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Bundler outputs
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional npm cache
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Gatsby files
+.cache/
+public/
+
+# Next.js
+.next/
+out/
+.swc/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# n8n specific
+.n8n/
+n8n-backup/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Security
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Miscellaneous
+.sass-cache/
+.connect.lock
+.lock-wscript
+.wafpickle-N
+.external-ecmascript.js
+
+# Serverless
+.serverless/
+
+# FuseBox
+.fusebox/
+
+# DynamoDB Local
+.dynamodb/
+
+# TernJS
+.tern-port
+
+# Stores VSCode versions
+.vscode-test/
+
+# Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Local development
+local/
+.local/
+
+# Deployment
+.vercel/
+.netlify/
+
+# Storybook
+storybook-static/
+
+# Turborepo
+.turbo/
+
+# Docusaurus
+.docusaurus/
+
+# Ignore submodule builds but keep the submodules themselves
+trade-lead-generator/node_modules/
+trade-lead-generator/.next/
+trade-lead-generator/dist/
+trade-lead-generator/.env*
+ai-cold-caller-crm/node_modules/
+ai-cold-caller-crm/.next/
+ai-cold-caller-crm/dist/
+ai-cold-caller-crm/.env*
