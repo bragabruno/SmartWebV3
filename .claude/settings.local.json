@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git submodule:*)",
       "Bash(ls:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(mkdir:*)"
     ],
     "deny": []
   }
